@@ -44,9 +44,7 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.header-link:hover,
-.header-adress-link:focus {
-  text-decoration: underline;
+.header-link:hover {
   color: #404bbf;
 }
 .header-adress-link {
