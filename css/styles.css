@@ -230,3 +230,8 @@ a {
 .team-people {
   background-color: #ffffff;
 }
+
+.header-a:focus,
+.header-a:hover {
+  color: #404bbf;
+}
