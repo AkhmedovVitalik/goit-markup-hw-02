@@ -87,6 +87,7 @@ a {
   color: #ffffff;
   background-color: #4d5ae5;
 }
+.hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
 }
