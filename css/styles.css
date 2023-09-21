@@ -1,6 +1,7 @@
 body {
-  color: #2e2f42;
-  font-family: "Helvetica Neue", "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 ul {
   list-style: none;
@@ -15,7 +16,7 @@ a {
   background-color: white;
 }
 .header-nav-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
@@ -25,8 +26,8 @@ a {
   text-transform: uppercase;
 }
 .header-nav-logo-web {
-  color: #4d5ae5;
-  font-family: Raleway;
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -62,6 +63,7 @@ a {
   text-decoration: underline;
   color: #404bbf;
 }
+
 .hero {
   background-color: #2e2f42;
 }
@@ -76,14 +78,16 @@ a {
   letter-spacing: 0.02em;
 }
 .hero-button {
-  border-radius: 4px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .hero-button:focus {
   background: #404bbf;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .qualities-list {
   background-color: white;
@@ -155,6 +159,7 @@ a {
   text-transform: capitalize;
 }
 .portfolio-list {
+  background-color: white;
 }
 .projects-title {
   color: #2e2f42;
@@ -179,18 +184,18 @@ a {
   background-color: #2e2f42;
 }
 .footer-link {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.16; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-link-logo {
-  color: #4d5ae5;
-  font-family: Raleway;
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -206,4 +211,24 @@ a {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+}
+
+.adress {
+  font-style: normal;
+}
+
+.header-link-a {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+.header-link-a:hover,
+.header-link-a:focus,
+.header-link-a:active {
+  color: #404bbf;
+  text-decoration: underline;
 }
