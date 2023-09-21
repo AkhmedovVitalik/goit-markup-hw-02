@@ -80,11 +80,12 @@ a {
 .hero-button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
 }
 .hero-button:focus {
   background: #404bbf;
@@ -183,9 +184,10 @@ a {
 .footer {
   background-color: #2e2f42;
 }
+
 .footer-link {
   color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -217,18 +219,13 @@ a {
   font-style: normal;
 }
 
-.header-link-a {
-  color: #2e2f42;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-}
 .header-link-a:hover,
 .header-link-a:focus,
 .header-link-a:active {
   color: #404bbf;
   text-decoration: underline;
+}
+
+.team-people {
+  background-color: #ffffff;
 }
