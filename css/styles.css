@@ -231,8 +231,6 @@ a {
   background-color: #ffffff;
 }
 
-.header-a:focus,
-.header-a:hover,
-.header-a:active {
+.header-a:focus {
   color: #404bbf;
 }
